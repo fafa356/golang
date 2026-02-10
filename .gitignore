@@ -1,0 +1,27 @@
+# --- JetBrains IDE (GoLand) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Go Specific ---
+# Бінарні файли (виконувані файли)
+bin/
+# Результат виконання go build (якщо назва збігається з папкою)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Головний бінарний файл (якщо ви називаєте його main або за назвою папки)
+main
+debug
+
+# --- Dependency management ---
+# vendor/ зазвичай не закидують, якщо ви використовуєте Go Modules
+# (якщо хочете зберігати копії бібліотек у себе, видаліть рядок нижче)
+vendor/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
