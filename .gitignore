@@ -25,3 +25,11 @@ vendor/
 # --- System files ---
 .DS_Store
 Thumbs.db
+
+# macOS metadata
+.DS_Store
+._*
+.directory
+
+# IDE settings
+.idea/
